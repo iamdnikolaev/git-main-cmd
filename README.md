@@ -2,6 +2,12 @@ git init
 
 git status
 
+  untracked + git add = staged
+
+  modified + git add = staged
+
+  staged + git commit = tracked
+
 **git add**
 
 **git commit**
