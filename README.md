@@ -1,16 +1,17 @@
 git init
 
-git status
-
-  untracked + git add = staged
-
-  modified + git add = staged
-
+git status  
+  untracked + git add = staged  
+  modified + git add = staged  
   staged + git commit = tracked
 
 **git add**
 
-**git commit**
+**git commit**  
+Сообщение коммита - краткое и информативное его описание.  
+Стили: корпоративный (номер задачи: повелительное наклонение);  
+Conventional Commits - стандартизирован, в формате: <type>: <сообщение> (fix, feat: ...).  
+GitHub-стиль: позволяет ссылаться на задачу по #номеру.
 
 git log - Лог - список коммитов с их описанием (хэш, автор, дата, описание). **--oneline** - одной строкой.
 
